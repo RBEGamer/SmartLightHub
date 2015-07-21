@@ -1,6 +1,6 @@
 <!DOCTYPE html><html><head>
   <title>RBNetworks SMART HOME</title>
-<meta http-equiv='content-type' content='text/html; charset=utf-8'>
+<meta http-equiv='content-type' content='text/html; charset=UTF-8'>
 <meta charset='utf-8'> 
   <link href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/base/jquery-ui.css' rel=stylesheet />
   <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
@@ -137,17 +137,34 @@ Forward the port 80 to the IP from your SmartHome-Server.
 <br><br>
 <br><br>
 
+<b> SETUP your DynDns ( <a href='http://dyn.com'>http://dyn.com</a> )  : Create a new Hostname </b><br>
+<br> Login to your account and click "My Services".
+<br><img src="dyndns_setup_images/dyndns_setup_step_1.png" width="500" />
+<br> Click <b>"Add Hostname"</b>.
+<br><img src="dyndns_setup_images/dyndns_setup_step_2.png" width="500" />
+<br> (1) Choose an hostname eg. smarthomemeier.dyndns.ws.
+<br> (2) Select <b>"Host with IP Adress".</b>
+<br> (3) Click the link : <b>"Your current locations IP adress is : xxx.xxx.xxx.xxx"</b>.
+<br> (4) Click <b>"Activate"</b> to save your new Hostname.
+<br><img src="dyndns_setup_images/dyndns_setup_step_3.png" width="500" />
 
+<br><br>
+<br><br>
+<b> SETUP your DynDns ( <a href='http://dyn.com'>http://dyn.com</a> )  : Activate your hostname in the Smarthome interface. </b><br>
+
+
+<br><br>
+<br><br>
 <b> SETUP Cronjob </b><br>
 The file <b>(root_dir)/remote/cron.php</b> must be called every minute.
 <br>
 
 <br>
-Exaple-Config for the linux crontab : <b>* * * * * /path/to/php /var/www/smarthome_v2/remote/cron.php</b><br>
+Exaple-Config for the linux crontab : <b>* * * * * </etc/php.d/> /var/www/smarthome_v2/remote/cron.php</b><br>
 But firt make the cron.php exicutable : <b>chmod +x /var/www/smarthome_v2/remote/cron.php</b>
 <br>
 <br><br>
-
+<br><br>
 <hr>
 <h2>ADVANCED CONFIG</h2>
 <hr>
