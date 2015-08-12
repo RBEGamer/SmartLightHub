@@ -1,8 +1,0 @@
-[config]
-node_port: 5000
-node_id: 1
-node_ip: 0.0.0.0
-node_password: 0000
-serial_baud: 9600
-serial_port: /dev/ttyAMA0
-serial_timeout: 3

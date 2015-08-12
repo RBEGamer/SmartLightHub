@@ -5,7 +5,7 @@ The easy way to control yout Lights
 Based on the popular Raspberry Pi (B/B+/2) and the Arduino Microcontrollerplattform.
 
  
- Please look at the SmartLightHub.pdf for further imformation (functions, schematics, spcifications).
+ Please look at the /Documentation/SmartLightHub.pdf for further imformation (functions, schematics, spcifications).
 
 
 
