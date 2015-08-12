@@ -9,10 +9,10 @@ import subprocess
 
 
 
-subprocess.Popen("cron.py", shell=True)
+subprocess.Popen("/usr/share/adafruit/webide/repositories/my-pi-projects/smart_home_pi/cron.py", shell=True)
 
 config = ConfigParser.ConfigParser()
-config.read("config.ini")
+config.read("/usr/share/adafruit/webide/repositories/my-pi-projects/smart_home_pi/config.ini")
 config.sections()
 node_port = int(config.get('config', 'node_port'))
 node_id = config.get('config', 'node_id')
