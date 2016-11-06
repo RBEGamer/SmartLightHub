@@ -37,7 +37,7 @@ It based only on php/javascript and python so you can run it on many other devic
 * download the SmartLightHub-website files (`/Source/webinterface/smarthome_v2_stable/)` to the `www`dir of your webserver
 * change the mysql- database settings at : `/Source/webinterface/smarthome_v2_stable/db_config.php`
 * setup a minute cron to call the `/Source/webinterface/smarthome_v2_stable/remote/cron.php`
-* start your webserver and ``ttp://ip:80/setup` and follow the setup steps
+* start your webserver and `http://ip:80/setup` and follow the setup steps
 * setup your database with the SETUP_DATABASE_WITH_SAMPLE_DATA-Button on the setup page
 * goto management->add_node and setup there your led_node
 
