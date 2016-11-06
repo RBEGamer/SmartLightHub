@@ -64,7 +64,21 @@ Please look at the /Documentation/SmartLightHub.pdf for further imformation (fun
 NO FURTHER SETUP NEEDED
 
 # USAGE
+* login to the SmartLightHub WEbinterface on your PI
+### ADD A DMX DEVIE
+* goto management->channel management and add all your dmx channels of all your devices and give them a name
+* goto management->devices and add a device, then add all channels you want to group into a device
+* goto management->zones and add a zone, add all device you want to have in a zone/room
 
+### SCENES
+* goto management>scenes and add a light scene, name it
+* goto dashboard and setup all your light settungs you want so store in a scene
+* now back in the scene management click at the created scene on `CAPTURE` to save the current lightsettings in the scene
+* now you can click on toggle scene to shw the scene up
+
+### SCHEDULE
+* goto management->schedule and add a new entry, the execution time, days, and whitch scene to toggle, name it
+* in the schedule list you can activate/deactive them
 
 
 # IMAGES
