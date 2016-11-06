@@ -27,9 +27,14 @@ It based only on php/javascript and python so you can run it on many other devic
 * goto management->add_node and setup there your led_node
 
 ### RPI-SETUP (NODE)
+* download the python scripts located at `/Source/raspberry_pi_scripts/`to your pi
+* edit the config.ini to your right serial-port
+* add the node.py to your `rc.local`
+* start the node.py script with su permissions
 
 ### ARDUINO SETUP
-
+* download the latest Arduino IDE
+* download the sketch located at `/arduino_uart_to_dmx_controlller/ARDUINO_NODE_DMX_CONVERTER/`
 
 # SETUP HARDWARE
 
