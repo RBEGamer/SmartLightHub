@@ -1,12 +1,11 @@
 # SmartLightHub
-## The easy way to control your Lights
- Control all yout DMX Lights over a Webinterface with Scenes, Tasks and many more options.
- Create groups, combine channels from much dmx devices into one virtual device. Create Scenes and manage them with schedule tasks. Easy to setup.
+## The easy way to control your DMX-Lights
+Control all yout DMX Lights over a Webinterface with Scenes, Tasks and many more options.
+Create groups, combine channels from much dmx devices into one virtual device. Create Scenes and manage them with schedule tasks. Easy to setup.
 Based on the popular Raspberry Pi (B/B+/2) and the Arduino Microcontrollerplattform.
 It based only on php/javascript and python so you can run it on many other devices, like BananaPi, BeagleBoard,... You can also connect the Phillips Hue, dimmers, SPS or other many devices with analog or digital inputs.
 
- 
- Please look at the /Documentation/SmartLightHub.pdf for further imformation (functions, schematics, spcifications).
+Please look at the /Documentation/SmartLightHub.pdf for further imformation (functions, schematics, spcifications).
 
 # FEATURES
 * Control all your DMX Devices
@@ -24,7 +23,7 @@ It based only on php/javascript and python so you can run it on many other devic
 * Mirco USB Cable
 * USB power supply
 * Arduino Mega 2560
-* RS485 Chip
+* RS485 Breakout
 * DMX-Jack
 
 # SETUP SOFTWARE
@@ -55,9 +54,14 @@ It based only on php/javascript and python so you can run it on many other devic
 * connect the arduino with the usb to the RPI
 
 # SETUP HARDWARE
-### ARDUINO SETUP
+### ARDUINO SETUP (simplyfied version)
+* See the fritzing schematic : /Source/schematic/SmartLightHubNode_schematic.tiff
+* Connect the programmed Arduino Mega2560 to the RPI via USB (or Serial RPI -> Serial1 of the Arduino, but you need an levelshifter)
+* Connect the Serial2 of the Arduino to the RS485 Board
+* Connect the output of the RS485 to the DMX jack
 
 ### RPI SETUP
+NO FURTHER SETUP NEEDED
 
 # USAGE
 
