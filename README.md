@@ -81,8 +81,10 @@ NO FURTHER SETUP NEEDED
 * in the schedule list you can activate/deactive them
 
 
-# IMAGES
+# IMAGES WebUI
+### DASHBAORD
 ![Gopher image](Documentation/webinterface_screenshots_v2/smarthome_start.png)
+### CHANNEL VALUES
 ![Gopher image](/Documentation/webinterface_screenshots_v2/smarthome_dashboard.png)
+### SCHEDULE LIST
 ![Gopher image](Documentation/webinterface_screenshots_v2/smarthome_schedule.png)
-![Gopher image](SRC/node_schematic.png)
