@@ -9,8 +9,21 @@ It based only on php/javascript and python so you can run it on many other devic
  Please look at the /Documentation/SmartLightHub.pdf for further imformation (functions, schematics, spcifications).
 
 # FEATURES
+* Control all your DMX Devices
+* Scenes
+* Toggle Scenes at Time
+* Group devices into rooms
+* Group dmx channels into devices
+* Easy scene creation with capture function
 
 # PARTS
+* Raspberry PI B/B+/2/3
+* SD Card
+* Mirco USB Cable
+* USB power supply
+* Arduino Mega 2560
+* RS485 Chip
+* DMX-Jack
 
 # SETUP SOFTWARE
 ### RPI-SETUP (WEBSERVER)
@@ -35,8 +48,13 @@ It based only on php/javascript and python so you can run it on many other devic
 ### ARDUINO SETUP
 * download the latest Arduino IDE
 * download the sketch located at `/arduino_uart_to_dmx_controlller/ARDUINO_NODE_DMX_CONVERTER/`
+* upload the sketch to your arduino
+* connect the arduino with the usb to the RPI
 
 # SETUP HARDWARE
+### ARDUINO SETUP
+
+### RPI SETUP
 
 # USAGE
 
