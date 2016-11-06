@@ -1,5 +1,5 @@
 # SmartLightHub
-## The easy way to control yout Lights
+## The easy way to control your Lights
  Control all yout DMX Lights over a Webinterface with Scenes, Tasks and many more options.
  Create groups, combine channels from much dmx devices into one virtual device. Create Scenes and manage them with schedule tasks. Easy to setup.
 Based on the popular Raspberry Pi (B/B+/2) and the Arduino Microcontrollerplattform.
