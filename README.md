@@ -34,19 +34,19 @@ It based only on php/javascript and python so you can run it on many other devic
 * install php >= 5.0
 * install mysql-server and phpmyadmin
 * create a new table via phpmyadmin
-* download the SmartLightHub-website files (`/Source/webinterface/smarthome_v2_stable/)` to the `www`dir
+* download the SmartLightHub-website files (`/Source/webinterface/smarthome_v2_stable/)` to the `www`dir of your webserver
 * change the mysql- database settings at : `/Source/webinterface/smarthome_v2_stable/db_config.php`
-* start your webserver and ip:80/setup and follow the setup steps
+* setup a minute cron to call the `/Source/webinterface/smarthome_v2_stable/remote/cron.php`
+* start your webserver and ``ttp://ip:80/setup` and follow the setup steps
 * setup your database with the SETUP_DATABASE_WITH_SAMPLE_DATA-Button on the setup page
-* setup a minute cron to call the cron.php
 * goto management->add_node and setup there your led_node
 
 ### RPI-SETUP (NODE)
 * download the python scripts located at `/Source/raspberry_pi_scripts/`to your pi
-* edit the config.ini to your right serial-port
+* edit the `config.ini` to your right serial-port
 * add the node.py to your `rc.local`
-* start the node.py script with su permissions
-
+* start the `node.py` script with su permissions
+* if you have not set a cronjob for the cron.php you can add the `cron.py` to your `rc.local` too
 ### ARDUINO SETUP
 * download the latest Arduino IDE
 * download the DMX libary : `https://github.com/mathertel/DMXSerial`
