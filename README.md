@@ -49,6 +49,7 @@ It based only on php/javascript and python so you can run it on many other devic
 
 ### ARDUINO SETUP
 * download the latest Arduino IDE
+* download the DMX libary : `https://github.com/mathertel/DMXSerial`
 * download the sketch located at `/arduino_uart_to_dmx_controlller/ARDUINO_NODE_DMX_CONVERTER/`
 * upload the sketch to your arduino
 * connect the arduino with the usb to the RPI
