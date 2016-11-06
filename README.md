@@ -15,6 +15,8 @@ It based only on php/javascript and python so you can run it on many other devic
 * Group devices into rooms
 * Group dmx channels into devices
 * Easy scene creation with capture function
+* Zones support
+* Scheduling scenes
 
 # PARTS
 * Raspberry PI B/B+/2/3
