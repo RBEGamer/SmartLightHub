@@ -56,7 +56,7 @@ Please look at the /Documentation/SmartLightHub.pdf for further imformation (fun
 
 # SETUP HARDWARE
 ### ARDUINO SETUP (simplyfied version)
-* See the fritzing schematic : /Source/schematic/SmartLightHubNode_schematic.tiff
+* See the fritzing schematic : `/Source/schematic/SmartLightHubNode_schematic.tiff
 * Connect the programmed Arduino Mega2560 to the RPI via USB (or Serial RPI -> Serial1 of the Arduino, but you need an levelshifter)
 * Connect the Serial2 of the Arduino to the RS485 Board
 * Connect the output of the RS485 to the DMX jack
