@@ -46,6 +46,7 @@ Please look at the /Documentation/SmartLightHub.pdf for further imformation (fun
 * add the node.py to your `rc.local`
 * start the `node.py` script with su permissions
 * if you have not set a cronjob for the cron.php you can add the `cron.py` to your `rc.local` too
+
 ### ARDUINO SETUP
 * download the latest Arduino IDE
 * download the DMX libary : `https://github.com/mathertel/DMXSerial`
