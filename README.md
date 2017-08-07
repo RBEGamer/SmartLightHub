@@ -5,7 +5,7 @@ Create groups, combine channels from much dmx devices into one virtual device. C
 Based on the popular Raspberry Pi (B/B+/2) and the Arduino Microcontrollerplattform.
 It based only on php/javascript and python so you can run it on many other devices, like BananaPi, BeagleBoard,... You can also connect the Phillips Hue, dimmers, SPS or other many devices with analog or digital inputs.
 
-Please look at the /Documentation/SmartLightHub.pdf for further imformation (functions, schematics, spcifications).
+Please look at the /Documentation/SmartLightHub.pdf for further information (functions, schematics, specifications).
 
 # FEATURES
 * Control all your DMX Devices
